@@ -1,0 +1,152 @@
+[
+  {
+    "model": "qwen2.5:0.5b",
+    "successful_tests": 5,
+    "total_tests": 5,
+    "average_score_percent": 82.0,
+    "average_tokens_per_second": 1.47,
+    "average_latency_seconds": 197.056,
+    "peak_ollama_process_rss_mb": 533.7,
+    "total_generated_tokens": 532,
+    "results": [
+      {
+        "answer": "DNS (Domain Name System) is a network protocol that translates domain names into IP addresses. It works by mapping each domain name to a corresponding IP address. When you type a domain name into a web browser, the browser sends a request to the DNS server to resolve the domain name to an IP address. The DNS server then translates the domain name into an IP address and sends it back to the browser. This process is called \"forwarding,\" and it allows users to access websites and other online resources by using their domain names instead of their IP addresses.",
+        "latency_seconds": 91.884,
+        "generation_seconds": 75.506,
+        "prompt_tokens": 55,
+        "generated_tokens": 112,
+        "tokens_per_second": 1.48,
+        "load_seconds": 0.007,
+        "total_seconds": 91.863,
+        "exact_match": null,
+        "score": 100.0,
+        "category": "General Knowledge",
+        "test_name": "Computer Networking"
+      },
+      {
+        "answer": "API (Application Programming Interface) یکی از جهت ارتباط بین دو نرم‌افزار، به عنوان یکی از جهت ارتباط بین دو نرم‌افزار، به عنوان یکی از جهت ارتباط بین دو نرم‌افزار، به عنوان یکی از جهت ارتباط بین دو نرم‌افزار، به عنوان یکی از جهت ا",
+        "latency_seconds": 115.714,
+        "generation_seconds": 82.024,
+        "prompt_tokens": 86,
+        "generated_tokens": 120,
+        "tokens_per_second": 1.46,
+        "load_seconds": 0.004,
+        "total_seconds": 115.7,
+        "exact_match": null,
+        "score": 75.0,
+        "category": "Persian Comprehension",
+        "test_name": "Persian Technical Explanation"
+      },
+      {
+        "answer": "The Python code provided calculates the sum of a list of numbers and then divides the sum by the length of the list. Here's a step-by-step explanation of each line of code:\n\n1. `numbers = [2, 4, 6, 8]`: This line initializes a list called `numbers` with the values [2, 4, 6, 8]. Each element in the list represents a number.\n\n2. `result = sum(numbers) / len(numbers)`: This line performs two operations:\n   - `sum(numbers)` calculates the sum of all the numbers",
+        "latency_seconds": 96.87,
+        "generation_seconds": 74.107,
+        "prompt_tokens": 70,
+        "generated_tokens": 120,
+        "tokens_per_second": 1.62,
+        "load_seconds": 0.001,
+        "total_seconds": 96.866,
+        "exact_match": null,
+        "score": 60.0,
+        "category": "Programming",
+        "test_name": "Python Code Explanation"
+      },
+      {
+        "answer": "To calculate the final price after a 20% discount, we need to follow these steps:\n\n1. **Calculate the total cost without the discount:**\n   - Each notebook costs 15 dollars.\n   - There are 3 notebooks.\n   - Therefore, the total cost without the discount is:\n     \\[\n     15 \\text{ dollars/notebook} \\times 3 \\text{ notebooks} = 45 \\text{ dollars}\n     \\]\n\n2. **Apply the 20% discount:**\n   - The discount is 20% of",
+        "latency_seconds": 92.976,
+        "generation_seconds": 73.184,
+        "prompt_tokens": 64,
+        "generated_tokens": 120,
+        "tokens_per_second": 1.64,
+        "load_seconds": 0.002,
+        "total_seconds": 92.972,
+        "exact_match": false,
+        "score": 75.0,
+        "category": "Mathematics",
+        "test_name": "Basic Mathematical Reasoning"
+      },
+      {
+        "answer": "1. The project identifier is ORCHID-7319.\n2. The primary color code is BLUE-COMET.\n3. The database engine used is PostgreSQL.\n4. The backup interval is 17 hours.\n5. The release code is R-2048.",
+        "latency_seconds": 587.835,
+        "generation_seconds": 53.064,
+        "prompt_tokens": 1117,
+        "generated_tokens": 60,
+        "tokens_per_second": 1.13,
+        "load_seconds": 0.001,
+        "total_seconds": 587.824,
+        "exact_match": null,
+        "score": 100.0,
+        "category": "Context",
+        "test_name": "Long Context Retrieval"
+      }
+    ]
+  },
+  {
+    "model": "qwen2.5:1.5b",
+    "successful_tests": 4,
+    "total_tests": 5,
+    "average_score_percent": 70.0,
+    "average_tokens_per_second": 1.13,
+    "average_latency_seconds": 133.783,
+    "peak_ollama_process_rss_mb": 1326.2,
+    "total_generated_tokens": 480,
+    "results": [
+      {
+        "answer": "DNS (Domain Name System) is a crucial component of computer networking that translates human-readable domain names into the numerical IP addresses that computers can understand. This process is essential for making the internet accessible and user-friendly.\n\nHere's how it works:\n\n1. **Domain Name System (DNS) Functionality**:\n   - DNS is a hierarchical system that maps domain names to IP addresses.\n   - It operates on a distributed network of servers, which are called DNS servers.\n   - These servers store the mapping between domain names and IP addresses.\n\n2. **How Domain Names are Translated to IP Addresses**",
+        "latency_seconds": 123.799,
+        "generation_seconds": 104.666,
+        "prompt_tokens": 55,
+        "generated_tokens": 120,
+        "tokens_per_second": 1.15,
+        "load_seconds": 0.008,
+        "total_seconds": 123.718,
+        "exact_match": null,
+        "score": 100.0,
+        "category": "General Knowledge",
+        "test_name": "Computer Networking"
+      },
+      {
+        "answer": "API (Application Programming Interface) یک سیستم تکنولوژی است که برای ارتباط بین دو نرم‌افزار می‌باشد. این سیستم به طور کلی شامل چند فرمت است که می‌توانند به صورت اولیه در نرم‌افزارهای مختلف اعمال شوند. این فرمت‌ها می‌توانند شامل فرمت‌های JSON، XML، پ",
+        "latency_seconds": 146.056,
+        "generation_seconds": 107.736,
+        "prompt_tokens": 86,
+        "generated_tokens": 120,
+        "tokens_per_second": 1.11,
+        "load_seconds": 0.002,
+        "total_seconds": 146.022,
+        "exact_match": null,
+        "score": 75.0,
+        "category": "Persian Comprehension",
+        "test_name": "Persian Technical Explanation"
+      },
+      {
+        "answer": "Let's break down the Python code line by line:\n\n1. `numbers = [2, 4, 6, 8]`\n   - This line initializes a list called `numbers` with the elements `[2, 4, 6, 8]`.\n\n2. `result = sum(numbers) / len(numbers)`\n   - This line calculates the average (mean) of the elements in the `numbers` list.\n   - `sum(numbers)` calculates the sum of all elements in the list.\n   - `len(numbers)` calculates the number of elements in the list.",
+        "latency_seconds": 135.638,
+        "generation_seconds": 107.095,
+        "prompt_tokens": 70,
+        "generated_tokens": 120,
+        "tokens_per_second": 1.12,
+        "load_seconds": 0.001,
+        "total_seconds": 135.619,
+        "exact_match": null,
+        "score": 80.0,
+        "category": "Programming",
+        "test_name": "Python Code Explanation"
+      },
+      {
+        "answer": "To determine the final price of the notebooks after the discount, we need to follow these steps:\n\n1. Calculate the total price before the discount.\n2. Apply the discount to the total price.\n3. The final price will be the total price minus the discount.\n\nLet's go through each step in detail:\n\n1. **Calculate the total price before the discount:**\n   The store sells 3 notebooks for $15 each. Therefore, the total price before the discount is:\n   \\[\n   3 \\text{ notebooks} \\times \\$15 \\text{ per notebook} =",
+        "latency_seconds": 129.639,
+        "generation_seconds": 105.279,
+        "prompt_tokens": 64,
+        "generated_tokens": 120,
+        "tokens_per_second": 1.14,
+        "load_seconds": 0.001,
+        "total_seconds": 129.624,
+        "exact_match": false,
+        "score": 25.0,
+        "category": "Mathematics",
+        "test_name": "Basic Mathematical Reasoning"
+      }
+    ]
+  }
+]
